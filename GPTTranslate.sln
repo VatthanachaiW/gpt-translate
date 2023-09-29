@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatGPTInputText", "ChatGPTInputText\ChatGPTInputText.csproj", "{09C2AC6C-70DC-421B-BA16-26F925AE2B2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DALChatGPT", "DALChatGPT\DALChatGPT.csproj", "{B9F6AB5B-B924-4802-A7C1-1B3B637DE66E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Producer", "Producer", "{B452EC0D-4587-4813-A405-1E9B3AE8A873}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consumer", "Consumer", "{2A17A301-BF11-41CD-A156-F72DC33C8D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPT", "ChatGPT\ChatGPT.csproj", "{89A1DA0D-9A02-4A71-B401-6CC8EA327D34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09C2AC6C-70DC-421B-BA16-26F925AE2B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C2AC6C-70DC-421B-BA16-26F925AE2B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C2AC6C-70DC-421B-BA16-26F925AE2B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C2AC6C-70DC-421B-BA16-26F925AE2B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F6AB5B-B924-4802-A7C1-1B3B637DE66E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F6AB5B-B924-4802-A7C1-1B3B637DE66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F6AB5B-B924-4802-A7C1-1B3B637DE66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F6AB5B-B924-4802-A7C1-1B3B637DE66E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A1DA0D-9A02-4A71-B401-6CC8EA327D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A1DA0D-9A02-4A71-B401-6CC8EA327D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A1DA0D-9A02-4A71-B401-6CC8EA327D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A1DA0D-9A02-4A71-B401-6CC8EA327D34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09C2AC6C-70DC-421B-BA16-26F925AE2B2D} = {B452EC0D-4587-4813-A405-1E9B3AE8A873}
+		{89A1DA0D-9A02-4A71-B401-6CC8EA327D34} = {2A17A301-BF11-41CD-A156-F72DC33C8D8E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFAD80F0-35D3-43D5-9500-34723B8C8DC3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+{
+  "DataSource": "Data Source=ai-pc;Initial Catalog=ChatGPT;Persist Security Info=True;User ID=sa;Password=P@ssw0rd!",
+  "Provider": "Microsoft.EntityFrameworkCore.SqlServer",
+  "ContextName": "ChatGPTContext",
+  "ContextDirectory": "Context",
+  "OutputDirectory": "Models",
+  "ContextNamespace": null,
+  "Namespace": null,
+  "Schemas": null,
+  "Tables": null,
+  "ProjectDirectory": ".",
+  "StartupProjectDirectory": ".",
+  "TargetFramework": null,
+  "Configuration": null,
+  "TargetRuntime": null,
+  "DataAnnotations": false,
+  "UseDatabaseNames": false,
+  "NoOnConfiguring": true,
+  "NoPluralize": true,
+  "Force": true,
+  "NoBuild": false,
+  "Verbose": false
+}
